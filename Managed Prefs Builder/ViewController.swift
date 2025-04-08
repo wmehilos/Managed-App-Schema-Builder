@@ -341,6 +341,7 @@ class ViewController: NSViewController, NSTextFieldDelegate, SendingKeyInfoDeleg
                                 "enum": \(enumValues)
                     """
                 case "string":
+                    keyTypeItems = "\"string\""
                     definedDefaultValue = "\"\(definedDefaultValue)\""
                 default:
                     var placeholder = ""
